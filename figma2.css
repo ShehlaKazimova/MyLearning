@@ -1,0 +1,718 @@
+* {
+    margin: 0px;
+}
+
+.navbar {
+    width: 100%;
+    height: 106px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-item {
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    width: 90%;
+}
+
+.vector-item {
+    background: #19CC95;
+    width: 36px;
+    height: 36px;
+    border-radius: 11px;
+}
+
+.learn-item {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 162px;
+    height: 26px;
+    color: #2C7EF9;
+    position: relative;
+    top: 8px;
+    left: 5px;
+}
+
+.navbar-item2 {
+    width: 62px;
+    height: 16px;
+    position: relative;
+    top: 33px;
+    right: 50px;
+}
+
+.item-back {
+    width: 52px;
+    height: 16px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+.item-text {
+    width: 30px;
+    height: 16px;
+    padding-left: 5px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #253858;
+
+
+}
+
+.item-vector {
+    width: 12px;
+    height: 7px;
+    color: #253858;
+}
+
+.first-part {
+    width: 1202px;
+    height: 30px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+.first-part-text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #253858;
+}
+
+.first-course-meet {
+    width: 1202px;
+    height: 30px;
+    position: relative;
+    left: 50px;
+    top: 15px;
+}
+
+.first-course-text {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #253858;
+}
+
+.main-lesson-schedule {
+    display: flex;
+}
+
+.lesson-schedule {
+    width: 246px;
+    height: 33px;
+    position: relative;
+    left: 75%;
+    top: 5px;
+    background-color: #FFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.leaderboard {
+    width: 16px;
+    height: 16px;
+}
+
+.lesson-schedule-text {
+    width: 176px;
+    height: 14px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #606266;
+}
+
+.closed-icon {
+    width: 46px;
+    height: 44px;
+    position: relative;
+    left: 1020px;
+    top: 5px;
+}
+
+.date-lesson {
+    width: 580px;
+    height: 50px;
+    border: 1px solid #CDCDCD;
+    position: relative;
+    left: 50px;
+    border-radius: 6px;
+}
+
+.date-lesson-text {
+    font-family: Roboto;
+    font-size: 1.3vw;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 344px;
+    height: 22px;
+    color: #2C7EF9;
+    position: relative;
+    margin: auto;
+    top: 15px;
+}
+
+.background-image {
+    width: 90%;
+    height: 331px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+.container-column {
+    display: flex;
+}
+
+.container-column1 {
+    width: 48%;
+}
+
+.container-text {
+    font-family: Roboto;
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #253858;
+    width: 587px;
+    height: 38px;
+    position: relative;
+    left: 50px;
+    top: 25px;
+}
+
+.container-button {
+    width: 90%;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.container-button1 {
+    width: 40%;
+    height: 50px;
+    border: 1px solid #19CC95;
+    border-radius: 6px;
+    /*  On click
+        Navigate to: "None";
+        Animate: Instant;
+        animation-duration: 0ms; */
+    background: #19CC95;
+
+}
+
+.container-button1-icon,
+.container-button2-rule {
+    width: 5%;
+
+}
+
+.button-text {
+    font-family: Roboto;
+    font-size: 1vw;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFF;
+
+}
+
+.container-button2 {
+    width: 40%;
+    height: 50px;
+    border-radius: 6px;
+    background: #253858;
+}
+
+.button-text2 {
+    font-family: Roboto;
+    font-size: 1vw;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFF;
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 700px;
+}
+
+
+.about-test {
+    width: 100%;
+    height: 600px;
+
+}
+
+.test-tittle {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 100%;
+    height: 60px;
+    color: #253858;
+    position: relative;
+    left: 50px;
+    top: 80px;
+}
+
+.test-answer {
+
+    height: 78px;
+    border: 1px solid #CDCDCD;
+    border-radius: 6px;
+    margin-left: 50px;
+    margin-top: 13px;
+}
+
+.test {
+    position: relative;
+    margin-top: 140px;
+}
+
+.test-text {
+    width: 509px;
+    height: 24px;
+    color: #253858;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.150px;
+    text-align: left;
+    margin: auto;
+    margin-top: 28px;
+}
+
+.test-answer:hover {
+    background-color: #2C7EF9;
+
+}
+
+.test-answer:hover .test-text {
+    color: #FFF;
+}
+
+.next-answer {
+    display: flex;
+    width: 90%;
+    height: 78px;
+    justify-content: space-between;
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+
+.next-answer-cont {
+    width: 30%;
+    height: 44px;
+    /* padding: 10px 32px 10px 32px; */
+    border-radius: 6px;
+    border: 1px solid #f2f2f2;
+    background-color: #FFFF;
+}
+
+.next-answer-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    color: #606266;
+
+}
+
+.next-answer-text {
+    width: 87px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 1.1vw;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #606266;
+    position: relative;
+    top: 9px;
+    left: 50px;
+}
+
+.next-answer-cont2 {
+    width: 30%;
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid #19CC95;
+    background: #19CC95;
+}
+
+.next-answer-text2 {
+    width: 90px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 1.1vw;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFF;
+    position: relative;
+    top: 9px;
+    left: 50px;
+}
+
+.swiper-button-prev {
+    color: #606266;
+    width: 3px;
+    height: 5px;
+
+}
+
+.swiper-button-next {
+
+    color: #fff;
+    width: 3px;
+    height: 5px;
+}
+
+
+.swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: 1.5vw !important;
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+}
+
+.swiper-button-next:after {
+    font-family: swiper-icons;
+    font-size: 1.5vw !important;
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+}
+
+.next-answer-icon2 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+
+.container-column2 {
+    width: 48%;
+    width: 487px;
+    /* height: 99px; */
+    position: relative;
+    top: 5px;
+    left: 180px;
+
+
+}
+
+.accordion {
+    height: 80px;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    transition: 0.4s;
+    background-color: #F7F9FA;
+    border: 1px solid #e8e8e8;
+}
+
+.accordion:hover {
+    background-color: #2C7EF9;
+}
+
+.accordion:hover .accordion-text {
+    color: #FFFFFF;
+}
+
+.panel {
+    max-height: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #FFF;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+
+}
+
+.panel-container {
+    height: 70px;
+    border: 1px solid #EFEFEF;
+}
+
+.container2 {
+    height: 70px;
+    border: 1px solid #EFEFEF;
+}
+
+.container3 {
+    height: 70px;
+    border: 1px solid #EFEFEF;
+}
+
+.container4 {
+    height: 70px;
+    border: 1px solid #EFEFEF;
+}
+
+.panel-container:hover {
+    background-color: #F7F9FA;
+}
+
+.panel-container:hover .panel-tittle {
+    color: #8258DF;
+}
+
+.panel-container:hover .panel-about-text {
+    background-color: #FFFF;
+
+}
+
+
+.accordion-text {
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 300px;
+    height: 50px;
+    color: #253858;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.text2 {
+    color: #2C7EF9;
+
+}
+
+
+.panel-tittle {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 420px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    color: #253858;
+}
+
+.panel-about-text {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.1400px;
+    text-align: center;
+    width: 73px;
+    padding: 0px 7px 0px 7px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    border-radius: 64px;
+    background-color: #EFEFEF;
+}
+
+
+.panel-item {
+    width: 120px;
+    position: relative;
+    top: 15px;
+    left: 50px;
+    bottom: 15px;
+}
+
+.item2 {
+    position: relative;
+    left: 32px;
+}
+
+.panel-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.panel-date {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #253858;
+    position: relative;
+    bottom: 5px;
+}
+
+.footer-container {
+    width: 100%;
+    height: 190px;
+    background-color: #2C7EF9;
+    position: relative;
+    top: 120px;
+}
+
+.learn-item1 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 162px;
+    height: 26px;
+    color: #FFF;
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+
+.vector-item1 {
+    position: relative;
+    top: 51px;
+    left: 33px;
+}
+
+.footer-text {
+    width: 252px;
+    height: 20px;
+    position: relative;
+    top: 120px;
+    left: 80px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFF;
+    background-color: #2C7EF9;
+}
+
+.footer-text2 {
+    width: 130px;
+    height: 20px;
+    position: relative;
+    float: right;
+    top: 102px;
+    right: 50px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #BAD6FF;
+
+}
+
+@media (max-width: 974px) {
+    .container-column {
+        display: block;
+    }
+
+    .container-column1 {
+        width: 100%;
+    }
+
+    .container-column2 {
+        position: relative;
+        left: 50px;
+        width: 100%;
+    }
+
+    .background-image {
+        width: 100%;
+    }
+
+    .date-lesson {
+        width: 100%;
+    }
+
+    .container-text {
+        width: 100%;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .navbar-item2 {
+        position: relative;
+        top: 50px;
+        left: 50px;
+        width: 90%;
+    }
+
+    .lesson-schedule {
+        width: 246px;
+        height: 33px;
+
+        margin: 20px 0;
+        position: relative;
+        left: 50px;
+        top: 5px;
+        background-color: #FFFF;
+        border: 1px solid #F2F2F2;
+        border-radius: 6px;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .closed-icon {
+        display: none;
+    }
+}
